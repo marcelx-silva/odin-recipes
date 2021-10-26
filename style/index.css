@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+a[href="https://github.com/marcelx-silva"]{
+    background: url(../media/github-icon.png) no-repeat 100% 0;
+    background-size: 20px 20px;
+    padding-right: 19px;
+}
+
+li{
+    border: 1px solid black;
+    padding:2%;
+    width: 15%;
+    text-align: center;
+}
+
+li:hover{
+    border:none;
+    background-color: rgb(154, 166, 177);
+    box-shadow: 10px 10px gainsboro;
+    
+}
