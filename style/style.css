@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;500;900&display=swap');
 
+body{
+    background-color: #ece4db;
+}
 h1,h2,h3,p,li,figcaption{
     font-family: 'Zen Kaku Gothic Antique';
 }
@@ -27,15 +30,19 @@ figure img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding:1%;
+    border: 5px solid black;
+    border-radius: 5px;
  
 }
 
 figure{
     margin:15px;
+    
 }
 
 figure figcaption{
-    margin-top:3px;
+    margin-top:5px;
     font-size:13px;
     text-align: center;
 }
