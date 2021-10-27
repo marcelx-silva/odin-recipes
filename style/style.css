@@ -3,8 +3,8 @@
 body{
     background-color: #ece4db;
 }
-h1,h2,h3,p,li,figcaption{
-    font-family: 'Zen Kaku Gothic Antique';
+h1,h2,h3,h4,p,li,figcaption{
+    font-family: 'Zen Kaku Gothic Antique',sans-serif;
 }
 
 h1{
@@ -47,6 +47,7 @@ figure figcaption{
     text-align: center;
 }
 hr{
+    margin-top:5%;
     width: 65%;
     border-top: 2px solid black;
     box-shadow:10px 5px 5px black;
