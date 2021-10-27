@@ -62,3 +62,12 @@ footer p{
     margin-bottom:2.3%;
 }
 
+a[href="https://github.com/marcelx-silva"]{
+    background: url(../media/github-icon.png) no-repeat 100% 0;
+    background-size: 20px 20px;
+    padding-right: 19px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

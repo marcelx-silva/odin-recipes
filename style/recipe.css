@@ -5,5 +5,19 @@ h2{
     text-align: center;
 }
 h3{
-    
+    margin-top:2%;
+    margin-bottom: 1%;
+    font-weight:600;
+    font-size:1.4em;
+}
+h4{
+    font-style: italic;
+}
+.recipe-content{
+    line-height: 1.6em;
+    margin-left: 20%;
+    margin-right:12%;
+}
+.recipe-content ~ h3{
+    text-align: justify;
 }
